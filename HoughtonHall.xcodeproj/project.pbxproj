@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F00CAA8F1A44E02800FBD17D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00CAA8E1A44E02800FBD17D /* AppDelegate.swift */; };
+		F00CAA911A44E02800FBD17D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00CAA901A44E02800FBD17D /* ViewController.swift */; };
+		F00CAA941A44E02800FBD17D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F00CAA921A44E02800FBD17D /* Main.storyboard */; };
+		F00CAA961A44E02800FBD17D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F00CAA951A44E02800FBD17D /* Images.xcassets */; };
+		F00CAA991A44E02800FBD17D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F00CAA971A44E02800FBD17D /* LaunchScreen.xib */; };
+		F00CAAA51A44E02900FBD17D /* HoughtonHallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00CAAA41A44E02900FBD17D /* HoughtonHallTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F00CAA9F1A44E02900FBD17D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F00CAA811A44E02800FBD17D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F00CAA881A44E02800FBD17D;
+			remoteInfo = HoughtonHall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F00CAA891A44E02800FBD17D /* HoughtonHall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoughtonHall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00CAA8D1A44E02800FBD17D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F00CAA8E1A44E02800FBD17D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F00CAA901A44E02800FBD17D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F00CAA931A44E02800FBD17D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F00CAA951A44E02800FBD17D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F00CAA981A44E02800FBD17D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F00CAA9E1A44E02900FBD17D /* HoughtonHallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoughtonHallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F00CAAA31A44E02900FBD17D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F00CAAA41A44E02900FBD17D /* HoughtonHallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoughtonHallTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F00CAA861A44E02800FBD17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F00CAA9B1A44E02900FBD17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F00CAA801A44E02800FBD17D = {
+			isa = PBXGroup;
+			children = (
+				F00CAA8B1A44E02800FBD17D /* HoughtonHall */,
+				F00CAAA11A44E02900FBD17D /* HoughtonHallTests */,
+				F00CAA8A1A44E02800FBD17D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F00CAA8A1A44E02800FBD17D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F00CAA891A44E02800FBD17D /* HoughtonHall.app */,
+				F00CAA9E1A44E02900FBD17D /* HoughtonHallTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F00CAA8B1A44E02800FBD17D /* HoughtonHall */ = {
+			isa = PBXGroup;
+			children = (
+				F00CAA8E1A44E02800FBD17D /* AppDelegate.swift */,
+				F00CAA901A44E02800FBD17D /* ViewController.swift */,
+				F00CAA921A44E02800FBD17D /* Main.storyboard */,
+				F00CAA951A44E02800FBD17D /* Images.xcassets */,
+				F00CAA971A44E02800FBD17D /* LaunchScreen.xib */,
+				F00CAA8C1A44E02800FBD17D /* Supporting Files */,
+			);
+			path = HoughtonHall;
+			sourceTree = "<group>";
+		};
+		F00CAA8C1A44E02800FBD17D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F00CAA8D1A44E02800FBD17D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F00CAAA11A44E02900FBD17D /* HoughtonHallTests */ = {
+			isa = PBXGroup;
+			children = (
+				F00CAAA41A44E02900FBD17D /* HoughtonHallTests.swift */,
+				F00CAAA21A44E02900FBD17D /* Supporting Files */,
+			);
+			path = HoughtonHallTests;
+			sourceTree = "<group>";
+		};
+		F00CAAA21A44E02900FBD17D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F00CAAA31A44E02900FBD17D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F00CAA881A44E02800FBD17D /* HoughtonHall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00CAAA81A44E02900FBD17D /* Build configuration list for PBXNativeTarget "HoughtonHall" */;
+			buildPhases = (
+				F00CAA851A44E02800FBD17D /* Sources */,
+				F00CAA861A44E02800FBD17D /* Frameworks */,
+				F00CAA871A44E02800FBD17D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoughtonHall;
+			productName = HoughtonHall;
+			productReference = F00CAA891A44E02800FBD17D /* HoughtonHall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F00CAA9D1A44E02900FBD17D /* HoughtonHallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00CAAAB1A44E02900FBD17D /* Build configuration list for PBXNativeTarget "HoughtonHallTests" */;
+			buildPhases = (
+				F00CAA9A1A44E02900FBD17D /* Sources */,
+				F00CAA9B1A44E02900FBD17D /* Frameworks */,
+				F00CAA9C1A44E02900FBD17D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F00CAAA01A44E02900FBD17D /* PBXTargetDependency */,
+			);
+			name = HoughtonHallTests;
+			productName = HoughtonHallTests;
+			productReference = F00CAA9E1A44E02900FBD17D /* HoughtonHallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F00CAA811A44E02800FBD17D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = CyArk;
+				TargetAttributes = {
+					F00CAA881A44E02800FBD17D = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					F00CAA9D1A44E02900FBD17D = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = F00CAA881A44E02800FBD17D;
+					};
+				};
+			};
+			buildConfigurationList = F00CAA841A44E02800FBD17D /* Build configuration list for PBXProject "HoughtonHall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F00CAA801A44E02800FBD17D;
+			productRefGroup = F00CAA8A1A44E02800FBD17D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F00CAA881A44E02800FBD17D /* HoughtonHall */,
+				F00CAA9D1A44E02900FBD17D /* HoughtonHallTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F00CAA871A44E02800FBD17D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00CAA941A44E02800FBD17D /* Main.storyboard in Resources */,
+				F00CAA991A44E02800FBD17D /* LaunchScreen.xib in Resources */,
+				F00CAA961A44E02800FBD17D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F00CAA9C1A44E02900FBD17D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F00CAA851A44E02800FBD17D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00CAA911A44E02800FBD17D /* ViewController.swift in Sources */,
+				F00CAA8F1A44E02800FBD17D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F00CAA9A1A44E02900FBD17D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F00CAAA51A44E02900FBD17D /* HoughtonHallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F00CAAA01A44E02900FBD17D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F00CAA881A44E02800FBD17D /* HoughtonHall */;
+			targetProxy = F00CAA9F1A44E02900FBD17D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F00CAA921A44E02800FBD17D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F00CAA931A44E02800FBD17D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F00CAA971A44E02800FBD17D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F00CAA981A44E02800FBD17D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F00CAAA61A44E02900FBD17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		F00CAAA71A44E02900FBD17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F00CAAA91A44E02900FBD17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HoughtonHall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F00CAAAA1A44E02900FBD17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HoughtonHall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F00CAAAC1A44E02900FBD17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HoughtonHallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoughtonHall.app/HoughtonHall";
+			};
+			name = Debug;
+		};
+		F00CAAAD1A44E02900FBD17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HoughtonHallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoughtonHall.app/HoughtonHall";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F00CAA841A44E02800FBD17D /* Build configuration list for PBXProject "HoughtonHall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00CAAA61A44E02900FBD17D /* Debug */,
+				F00CAAA71A44E02900FBD17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F00CAAA81A44E02900FBD17D /* Build configuration list for PBXNativeTarget "HoughtonHall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00CAAA91A44E02900FBD17D /* Debug */,
+				F00CAAAA1A44E02900FBD17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F00CAAAB1A44E02900FBD17D /* Build configuration list for PBXNativeTarget "HoughtonHallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00CAAAC1A44E02900FBD17D /* Debug */,
+				F00CAAAD1A44E02900FBD17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F00CAA811A44E02800FBD17D /* Project object */;
+}
